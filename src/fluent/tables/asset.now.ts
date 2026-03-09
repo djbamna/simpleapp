@@ -1,8 +1,8 @@
 import '@servicenow/sdk/global'
 import { Table, StringColumn, ReferenceColumn, DateColumn, ChoiceColumn, DecimalColumn, BooleanColumn } from '@servicenow/sdk/core'
 
-export const x_1908656_asset_tr_asset = Table({
-  name: 'x_1908656_asset_tr_asset',
+export const x_1908656_cellapp_asset = Table({
+  name: 'x_1908656_cellapp_asset',
   label: 'Asset',
   schema: {
     asset_tag: StringColumn({

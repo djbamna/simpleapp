@@ -5,7 +5,7 @@ Record({
     table: 'sys_ui_section',
     data: {
         header: false,
-        name: 'x_1908656_asset_tr_asset',
+        name: 'x_1908656_cellapp_asset',
         sys_domain: 'global',
         sys_domain_path: '/',
         title: true,

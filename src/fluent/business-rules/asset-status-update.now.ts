@@ -5,7 +5,7 @@ import { updateAssetStatus } from '../../server/asset-status-handler.js'
 BusinessRule({
   $id: Now.ID['asset_status_br'],
   name: 'Asset Assignment Status Update',
-  table: 'x_1908656_asset_tr_asset',
+  table: 'x_1908656_cellapp_asset',
   when: 'before',
   action: ['update'],
   script: updateAssetStatus,

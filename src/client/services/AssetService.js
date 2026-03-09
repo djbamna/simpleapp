@@ -1,6 +1,6 @@
 export class AssetService {
   constructor() {
-    this.tableName = 'x_1908656_asset_tr_asset'
+    this.tableName = 'x_1908656_cellapp_asset'
   }
 
   async list(filters = {}) {
